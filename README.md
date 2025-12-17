@@ -1,2 +1,33 @@
-# Import-From-Nepal
-Project Import from Nepal 
+nepal-imports/
+  prisma/
+    schema.prisma
+    seed.ts
+  src/
+    app/
+      layout.tsx
+      page.tsx
+      products/[id]/page.tsx
+      cart/page.tsx
+      checkout/page.tsx
+      admin/
+        login/page.tsx
+        page.tsx
+        vendors/page.tsx
+        products/page.tsx
+        orders/page.tsx
+      api/
+        auth/login/route.ts
+        admin/vendors/route.ts
+        admin/products/route.ts
+        admin/orders/route.ts
+        public/products/route.ts
+        public/orders/route.ts
+    lib/
+      db.ts
+      auth.ts
+      validate.ts
+      money.ts
+  .env.example
+  package.json
+  next.config.js
+  tsconfig.json
